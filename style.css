@@ -1,0 +1,66 @@
+.calculadora {
+    width: 400px;
+    background: antiquewhite;
+    margin: auto;
+    padding: 2em;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.input input {
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.teclas {
+    display: flex;
+    justify-content: center;
+}
+
+.numeros {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.numero {
+    width: 4em;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e4c499;
+    margin: 0.5em;
+}
+
+.numero:hover {
+    background: #ce9344;
+}
+
+.signos {
+    /* width: 100%; */
+    flex-wrap: wrap;
+    width: 38%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 0.3em; */
+}
+
+.signo {
+    width: 4em;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e4c499;
+}
+
+.signo:hover {
+    background: #ce9344;
+}
